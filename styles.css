@@ -198,13 +198,15 @@ main {
   color: #434141;
 }
 .container h1 {
-  font-size: 48px;
+  font-size: 46px;
   margin-bottom: 10px;
 }
 #name {
   color: #fff;
   font-family: "Lobster";
   font-size: 55px;
+  width: 400px;
+  max-width: 400px;
 }
 span {
   color: #00ddfa;
