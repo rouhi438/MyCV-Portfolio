@@ -1,15 +1,3 @@
-// navLinks.forEach((link) => {
-//   const linkPath = link.getAttribute("href");
-//   const currentPage = window.location.pathname;
-
-//   if (currentPage.includes(linkPath)) {
-//     link.classList.add("active");
-//   } else {
-//     link.classList.remove("active");
-//   }
-// });
-
-//  language loding bar
 const englishBar = document.querySelector(".english-bar");
 const danishBar = document.querySelector(".danish-bar");
 const turkishBar = document.querySelector(".turkish-bar");
@@ -61,20 +49,6 @@ window.addEventListener("DOMContentLoaded", () => {
     bar.addEventListener("touchcancel", resetLoad);
   });
 });
-
-// window.addEventListener("DOMContentLoaded", () => {
-//   const languageBars = [
-//     { id: "english", name: "English", percent: 50, loadText: "Loading..." },
-//     { id: "danish", name: "Danish", percent: 50, loadText: "Loading..." },
-//     { id: "turkish", name: "Turkish", percent: 80, loadText: "Loading..." },
-//   ];
-
-//   languageBars.forEach((lang) => {
-//     const bar = document.querySelector(`.${lang.id}-bar`);
-//     const level = document.querySelector(`.${lang.id}-level`);
-//     const loadingText = document.getElementById(`${lang.id}-load`);
-//   });
-// });
 
 // Handling just PersianBar function
 window.addEventListener("DOMContentLoaded", function () {
